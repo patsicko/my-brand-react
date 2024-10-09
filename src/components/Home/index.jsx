@@ -44,15 +44,15 @@ const Home = () => {
   }, [displayedText, isDeleting, textIndex, sentences]);
 
   return (
-    <div className="brand-container mt-auto p-20 md:w-full">
-      <div className="w-full my-20 md:flex justify-center gap-8">
+    <div className="brand-container mt-auto p-2 w-full md:p-4 ">
+      <div className="w-full my-20 lg:flex justify-center gap-8">
         <img
           src={myPic}
           alt="mypic"
           className="h-80 w-80 mr-80 rounded-xl shadow-lg"
         />
-        <div className="m-10">
-          <p className="brand shadow p-5 text-md  md:text-xl lg:text-2xl ">{displayedText}</p>
+        <div className=" m-2 lg:m-10 w-full md:w-1/2">
+          <p className="shadow p-5 text-md  md:text-xl lg:text-2xl ">{displayedText}</p>
           <div className="mt-10 h-1/2 w-full text-xl">
             <img
               src={idoGif}
