@@ -1,0 +1,44 @@
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    padding: 2rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: left; /* Left-aligned text */
+  }
+  
+  .details {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .description {
+    font-size: 0.9rem; /* Smaller font size for paragraph */
+    color: #555;
+    margin-top: 0.5rem;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 0; /* Left alignment */
+    margin-right: auto;
+    text-align: justify; /* Justified text for neatness */
+  }
+  
+  .highlight {
+    color: #007bff; /* Highlight key technologies */
+  }
+  
+  @media (max-width: 768px) {
+    .description {
+      font-size: 0.8rem; /* Further reduced size on smaller screens */
+    }
+  }
+  
