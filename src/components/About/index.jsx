@@ -19,7 +19,7 @@ const About = () => {
           </p>
           <a href="#contact" className='btn btn__primary'>Contact Me</a>
           <a
-      href="https://drive.google.com/file/d/1iwaOuA8c6Ibu150kYDOTDvrH6HFMZtKr/view?usp=sharing"
+      href="https://drive.google.com/file/d/1vMq0D2CxqeEA717gVtQ6nvbfYwCX9xDT/view?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       className="block border border-gray-300 rounded-md shadow-lg p-4 mt-2 flex items-center justify-between bg-white transition duration-300 ease-in-out hover:shadow-xl hover:border-gray-400"
